@@ -3,5 +3,5 @@ import jsxA11y from 'eslint-plugin-jsx-a11y'
 
 export default antfu({
   react: true,
-  ignores: ['dist'],
+  ignores: ['dist', 'pnpm-workspace.yaml'],
 }, jsxA11y.flatConfigs.recommended)
